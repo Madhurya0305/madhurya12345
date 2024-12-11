@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<body style="background-color: #cedbc5;">
     <meta charset="UTF-8">
     <title>Delete Students</title>
     <style>

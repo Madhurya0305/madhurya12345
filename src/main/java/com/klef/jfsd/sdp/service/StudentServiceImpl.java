@@ -24,7 +24,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public String registerForEvent(int studentId, int eventId) {
-        // Logic to register a student for an event goes here
+        // Logic to register the student for an event
         return "Student registered for the event successfully";
     }
 
@@ -40,5 +40,16 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public Student checkstudentlogin(String email, String password) {
         return studentRepository.checkstudentlogin(email, password);
+    }
+
+    @Override
+    public List<Events> getRegisteredEventsByStudent(String email) {
+        // Fetch student by email
+        Student student = studentRepository.findByEmail(email);
+
+        if (student != null) {
+            return student.getRegisteredEvents(); // Return the registered events for this student
+        }
+        return null;
     }
 }

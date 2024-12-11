@@ -10,6 +10,7 @@ if (f == null) {
 <!DOCTYPE html>
 <html>
 <head>
+<body style="background-color:#c4dbbf ;">
 <meta charset="UTF-8">
 <title>Faculty Profile</title>
 <link rel="stylesheet" type="text/css" href="style.css">

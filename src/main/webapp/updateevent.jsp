@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<body style="background-color:#822b38 ;">
     <meta charset="UTF-8">
     <title>Update Events</title>
     <style>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<body style="background-color:#804685 ;">
     <meta charset="UTF-8">
     <title>View All Events</title>
     <style>

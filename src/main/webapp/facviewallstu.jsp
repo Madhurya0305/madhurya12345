@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<body style="background-color:#d1cfc5 ;">
     <meta charset="UTF-8">
     <title>View All Students</title>
     <style>

@@ -9,6 +9,7 @@ import com.klef.jfsd.sdp.model.Student;
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Integer>
 {
+	 Student findByEmail(String email);
    // Method to check student login
    @Query("select s from Student s where s.email=?1 and s.password=?2")
    public Student checkstudentlogin(String email, String password);
